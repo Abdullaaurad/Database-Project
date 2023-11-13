@@ -1,0 +1,55 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.btn {
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn.info {
+    background: rgb(26, 77, 188);
+    color: white;
+
+    &:hover {
+        background: rgb(245, 16, 4);
+    }
+}
+
+.btn.view {
+    background: rgb(219, 12, 12);
+    color: white;
+
+    &:hover {
+        background: rgb(4, 64, 245);
+    }
+}
+
+.btn.co {
+    background: rgb(26, 77, 188);
+    color: white;
+    padding-right: 20px;
+    margin-right: 10px; 
+
+    &:hover {
+        background: rgb(219, 12, 12);
+    }
+}
+
+/* Add this style for both buttons to make them display inline */
+.header form {
+    display: inline-block;
+}
