@@ -1,0 +1,65 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    text-align: left; 
+}
+
+table {
+    background-image: url(../../../Image/01.jpg);
+    border-collapse: collapse;
+    width: 95%;
+    margin: 50px;
+    align-items: start;
+}
+
+table, th, td {
+    border: 5px solid #000000;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.attendance-details {
+    background-color: rgb(26, 77, 188); 
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn.info {
+    margin: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(0, 216, 83, 0.838); 
+    color: white;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background: rgb(245, 16, 4);
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+}
+
+.header h1 {
+    margin: 20px;
+}

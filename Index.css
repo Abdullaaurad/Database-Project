@@ -1,0 +1,57 @@
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header H1 {
+    margin: 0;
+}
+
+.btn.info {
+    margin: 0;
+    padding: 30px 50px;
+    border-radius: 10px;
+    background: rgb(26, 77, 188);
+    color: white;
+    transition: background-color 0.3s;
+    size: 100px;
+
+    &:hover {
+        background: rgb(245, 16, 4);
+    }
+}
+
+.btn.view {
+    margin: 0;
+    align-items: end;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background:  rgb(17, 209, 46);
+    color: white;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background: rgb(245, 16, 4);
+    }
+}
+
+.buttons-container {
+    margin-top: 400px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn {
+    margin: 40px;
+}
